@@ -23,5 +23,3 @@ The module creates the Kubernetes namespace and configures a ResourceQuota with 
 terraform init
 terraform apply
 ```
-# Verify
-kubectl get resourcequota -n demo-ns
